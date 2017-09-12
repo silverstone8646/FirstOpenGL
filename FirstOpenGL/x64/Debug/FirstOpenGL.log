@@ -1,0 +1,4 @@
+﻿  MeshRenderPlugin.cpp
+e:\selfstudy\opengl\firstopengl\firstopengl\meshrenderplugin.cpp(184): warning C4244: “初始化”: 从“float”转换到“GLuint”，可能丢失数据
+  FirstOpenGL.vcxproj -> E:\selfstudy\OpenGL\FirstOpenGL\x64\Debug\FirstOpenGL.exe
+  FirstOpenGL.vcxproj -> E:\selfstudy\OpenGL\FirstOpenGL\x64\Debug\FirstOpenGL.pdb (Full PDB)

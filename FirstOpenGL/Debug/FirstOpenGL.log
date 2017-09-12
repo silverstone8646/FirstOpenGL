@@ -1,0 +1,22 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 __imp__glewInit@0，该符号在函数 _main 中被引用
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBuffer
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBufferData
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenBuffers
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewEnableVertexAttribArray
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewVertexAttribPointer
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindVertexArray
+main.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenVertexArrays
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewAttachShader
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewCompileShader
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewCreateProgram
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewCreateShader
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewDeleteShader
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetProgramInfoLog
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetProgramiv
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetShaderInfoLog
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewGetShaderiv
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewLinkProgram
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewShaderSource
+Program.obj : error LNK2001: 无法解析的外部符号 __imp____glewUseProgram
+glew32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+E:\selfstudy\OpenGL\FirstOpenGL\Debug\FirstOpenGL.exe : fatal error LNK1120: 20 个无法解析的外部命令

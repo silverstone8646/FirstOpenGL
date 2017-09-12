@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Shader">
+      <UniqueIdentifier>{5341eb39-1093-4a72-bbd7-d36cd34604f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Program">
+      <UniqueIdentifier>{908a2bab-f1f5-499c-80bb-04d5f1a2a777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader source code">
+      <UniqueIdentifier>{aae82924-432e-4deb-a3b7-0f8b564f5a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SOIL">
+      <UniqueIdentifier>{799e1b29-aade-4a0c-8731-5c925e490157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader source code\shader with simple texture">
+      <UniqueIdentifier>{de40eb1c-2561-4c0f-b2df-5a7ad3bcd13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader source code\shader with light">
+      <UniqueIdentifier>{264e9559-c3ba-4672-9398-2e31d8619b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RenderPlugin">
+      <UniqueIdentifier>{e3028fe8-8755-4304-b08e-8c066dfe82ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{619598f4-ef51-4fe3-b1f6-25ce4f0c8820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RenderPlugin\Mesh">
+      <UniqueIdentifier>{fce0f41f-0162-4a63-8a3b-6cdf7840ae8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader source code\mesh model shader">
+      <UniqueIdentifier>{35a9f4cc-e70e-4802-a318-caf9ea323401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shape">
+      <UniqueIdentifier>{66de8816-c8f2-41b3-a454-cff7417e48d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>源文件\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\image_DXT.c">
+      <Filter>源文件\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\image_helper.c">
+      <Filter>源文件\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\SOIL.c">
+      <Filter>源文件\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\stb_image_aug.c">
+      <Filter>源文件\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPluginBase.cpp">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerRenderPlugin.cpp">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="LightRenderPlugin.cpp">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>源文件\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapMeshRenderPlugin.cpp">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderPlugin.cpp">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>源文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>源文件\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\image_DXT.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\image_helper.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\SOIL.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\stb_image_aug.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\stbi_DDS_aug.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Open Sources\Simple-OpenGL-Image-Library-master\src\stbi_DDS_aug_c.h">
+      <Filter>源文件\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderPlugin.h">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPluginBase.h">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerRenderPlugin.h">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="LightRenderPlugin.h">
+      <Filter>源文件\RenderPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>源文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>源文件\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapMeshRenderPlugin.h">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderPlugin.h">
+      <Filter>源文件\RenderPlugin\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.frag">
+      <Filter>源文件\shader source code\shader with simple texture</Filter>
+    </None>
+    <None Include="shader.vert">
+      <Filter>源文件\shader source code\shader with simple texture</Filter>
+    </None>
+    <None Include="simplelight.vert">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="simplelight.frag">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="simplelamp.frag">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="mesh.vert">
+      <Filter>源文件\shader source code\mesh model shader</Filter>
+    </None>
+    <None Include="mesh.frag">
+      <Filter>源文件\shader source code\mesh model shader</Filter>
+    </None>
+    <None Include="cubemap.vert">
+      <Filter>源文件\shader source code\mesh model shader</Filter>
+    </None>
+    <None Include="cubemap.frag">
+      <Filter>源文件\shader source code\mesh model shader</Filter>
+    </None>
+    <None Include="floor.vert">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="floor.frag">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="simpleDepth.vert">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="simpleDepth.frag">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="debugDepth.vert">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="debugDepth.frag">
+      <Filter>源文件\shader source code\shader with light</Filter>
+    </None>
+    <None Include="depthpeeling_meshing.frag">
+      <Filter>源文件\shader source code\mesh model shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="awesomeface.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="floor.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\silverstone\Desktop\earth.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
